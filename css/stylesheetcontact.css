@@ -1,0 +1,120 @@
+body {
+	background-image:url("../img/dark.png");
+	margin:0;
+}
+h2 {
+	text-align:center;
+	margin:0;
+	color:black;
+	font-style:italic;
+	font-family:Times new roman;
+	padding: 15px;
+}
+
+#entete {
+  padding:3px;
+  background-color:#e3e3e3;
+  border-radius:10px;
+  height: 105px;
+}
+
+
+.njlogo {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  float:left;
+    
+}
+
+.contenu ul li {
+    color: rgb(230, 231, 230);
+    float:right;
+    font-size: 20px;
+    margin:9px;
+    padding: 7px;
+}
+
+#all {
+	width:760px;
+	box-shadow: 0px 4px 28px 5px rgba(0,0,0,0.71);
+	box-shadow: 0px 4px 28px 5px rgba(0,0,0,0.71);
+	box-shadow: 0px 4px 28px 5px rgba(0,0,0,0.71);
+	background-color:white;
+	margin:0 auto;
+	padding:20px;
+}
+
+#footer {
+	background: #e3e3e3;
+	height: 60px;
+	position: relative;
+	border:1px solid black;
+}
+
+h3 {
+	text-align:center;
+	color:grey;
+}
+
+input[type=submit] {
+	margin:37px;
+} 
+
+#footer p {
+color:black;
+margin: 0px 0px 0px 45px;
+padding: 18px 0 0 0;
+}
+
+a:visited {
+	color:none;
+	text-decoration:none; 
+	}
+
+	a:link {
+		text-decoration:none;
+	}
+
+.return {
+	margin:3px 0 0 7px;
+}
+
+
+
+
+.flotte {
+	float:left;
+	margin:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
