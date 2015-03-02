@@ -56,12 +56,12 @@ a:link {
 } 
 
 a:visited {
-    color: none;
+    
     text-decoration:none;
 }
 
 .rubriques a:visited {
-	color:none;
+	color:white;
 }
 
 .noyz {
