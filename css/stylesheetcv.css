@@ -1,38 +1,8 @@
-﻿body {
-	font-family:Verdana, sans-serif;
-	color:black;
-	background-color:white;
-	background-image:url("../img/dark.png");
-	margin:0;
-}
-#entete {
-  padding:3px;
-  background-color:#e3e3e3;
-  border-radius:10px;
-  height: 105px;
-}
-
-
-
-.contenu ul li {
-    color: rgb(230, 231, 230);
-    float:right;
-    font-size: 20px;
-    margin:9px;
-    padding: 7px;
-}
-
-#retour {
+﻿#retour {
 	float:left;
 	margin: 13px 0px 0px 11px;
 }
 
-.njlogo {
-	width: 100px;
-  height: 100px;
-   margin: 0;
-  float:left;
-}
 
 #retour p {
 	color:white;
@@ -40,15 +10,7 @@
 	margin-bottom: 75px;
 }
 
-#all {
-	width:760px;
-	background-color:white;
-	margin:0 auto;
-	padding:20px;
-	box-shadow: 0px 4px 28px 5px rgba(0,0,0,0.71);
-	box-shadow: 0px 4px 28px 5px rgba(0,0,0,0.71);
-	box-shadow: 0px 4px 28px 5px rgba(0,0,0,0.71);
-}
+
 
 a:link { 
  text-decoration:none; 
@@ -107,23 +69,6 @@ padding-left:0;
 	
 }
 	 
-.entete ul {
-	list-style: none;	
-}
-
-.entete ul li {
-	font-weight:bold;
-	margin: 7px 43px;
-}
-
-.entete .keepclass {
-	border-radius:10px;
-	margin:0 150px -2px 0;
-}
-
-.keepclass {
-	margin:0;
-}
 
 h1 {
 	color:#16B84E;
@@ -159,9 +104,6 @@ li {
 	margin-right:50px;
 }
 
-p {
-	color:black;
-}
 
 #competence ul li {
 	margin: 0 0 15px 0;
@@ -202,35 +144,6 @@ p {
 	float:left;
 	margin: 0 600px 0 5px;
 }
-
-
-.footer p { 
-	margin:0 0 15px 0; 
-	font-weight:bold;
-}
-
-#plan {
-	float:right;
-}
-
-
-
-
-
-
-
-
-
-
-/*Hack */
-.clearfix {
-  overflow: auto;
-  zoom: 1;
-}
-
-
-
-
 
 /* Float Shadow */
 .hvr-float-shadow {

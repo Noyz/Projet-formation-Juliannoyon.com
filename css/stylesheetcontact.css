@@ -118,3 +118,17 @@ a:visited {
   overflow: auto;
   zoom: 1;
 }
+
+<div class="langage clearfix">
+						<h2>Texte test 1</h2>
+						<div class="progressbar html">
+							<div class="content"></div>
+						</div>
+					</div>
+					<div class="langage clearfix">
+							<h2>Texte test 2</h2>
+						<div class="progressbar css">
+							<div class="content"></div>
+						</div>
+					</div>
+				</div>
