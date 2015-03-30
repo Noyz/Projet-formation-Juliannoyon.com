@@ -29,11 +29,8 @@ display:inline-block;
   height:100px;
   color:grey;
  
+}
 
-
-
-
- 
 .contenu ul li {
     color: rgb(230, 231, 230);
     float:right;
@@ -94,12 +91,6 @@ display:inline-block;
 }
 
 
-
-}
-#middle {
-    
-}
-
 #middle p {
     line-height: 150%
 }
@@ -118,13 +109,6 @@ display:inline-block;
   padding:5px;
 }
 
-
-
-
-
-a:hover {
-  backgroun
-}
 
 li {
   list-style: none;
@@ -457,15 +441,7 @@ h2 {
   float:right;
 }
 
-.footer {
-  
-  
-  border-radius:10px;
-  padding:4px; 
-  border:3px solid grey;
-  padding:3px;
-  background-color:#e0e0e0;
-}
+
 
 .inner2 img {
   height:20px;
