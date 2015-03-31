@@ -20,16 +20,25 @@ display:inline-block;
  }
 
 #entete .contenu li a {
+<<<<<<< HEAD
   padding:6px 6px;
   line-height:80px;
+=======
+  padding:7px;
+>>>>>>> b706490e7b3ef21124bbdffd1f5471c57c64441e
 
 }
 
 #entete .contenu li a:hover {
   background-color:#2eb398;
+<<<<<<< HEAD
   height:105px;
   color:grey;
 
+=======
+  height:100px;
+  color:grey;
+>>>>>>> b706490e7b3ef21124bbdffd1f5471c57c64441e
  
 }
 
@@ -37,11 +46,17 @@ display:inline-block;
     color: rgb(230, 231, 230);
     float:right;
     font-size: 20px;
+<<<<<<< HEAD
     background-color:#14161b;
 }
 
 .contenu ul{
 margin:0;
+=======
+    margin:9px;
+    
+    background-color:#14161b;
+>>>>>>> b706490e7b3ef21124bbdffd1f5471c57c64441e
 }
 
 #all {
@@ -490,6 +505,7 @@ h2 {
 
 
 /* ABOUT ME START*/
+<<<<<<< HEAD
 
 #multimedia {
   margin: 20px 20px 42px 20px;
@@ -533,6 +549,51 @@ padding:5px;
   background-color:grey;
 }
 
+=======
+
+#multimedia {
+  margin: 20px 20px 42px 20px;
+  padding-bottom:5px;
+}
+
+.tableau {
+  border-bottom:1px solid black;
+  text-align:center;
+  background-color:#14161b;
+  font-size:24px;
+}
+
+th {
+  text-align:center;
+  background-color:grey;
+  font-family: arial;
+}
+td 
+{
+  border:1px solid white;
+  padding:5px;
+  font-family:arial;
+}
+
+.tableau td {
+  color:#2eb398;
+}
+
+.row td { 
+border:2px solid white;
+padding:5px;
+
+}
+
+.ligne1{
+  background-color:#eeeeee;
+}
+
+.ligne2{
+  background-color:grey;
+}
+
+>>>>>>> b706490e7b3ef21124bbdffd1f5471c57c64441e
 #ninjutsu h2 {
   text-align:center;
 }
