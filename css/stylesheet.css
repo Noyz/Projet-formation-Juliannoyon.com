@@ -2,24 +2,46 @@
 body {
   font-family:Verdana, sans-serif;
   color:black;
-  background-image:url("../img/dark.png");
+  background-color:white;
   margin:0;
   width:100%;
 }
 
 #entete{
   padding:3px;
-  background-color:#e3e3e3;
-  border-radius:10px;
+  background-color:#14161b;
   height: 105px;
+}
+
+ a {
+color:#2eb398;
+display:inline-block;
+
+ }
+
+#entete .contenu li a {
+  padding:6px 6px;
+  line-height:80px;
+
+}
+
+#entete .contenu li a:hover {
+  background-color:#2eb398;
+  height:105px;
+  color:grey;
+
+ 
 }
 
 .contenu ul li {
     color: rgb(230, 231, 230);
     float:right;
     font-size: 20px;
-    margin:9px;
-    padding: 7px;
+    background-color:#14161b;
+}
+
+.contenu ul{
+margin:0;
 }
 
 #all {
@@ -27,9 +49,7 @@ body {
     background-color:white;
     margin:0 auto ;
     padding:20px;
-    box-shadow: 0px 4px 28px 5px rgba(0,0,0,0.71);
-    box-shadow: 0px 4px 28px 5px rgba(0,0,0,0.71);
-    box-shadow: 0px 4px 28px 5px rgba(0,0,0,0.71);
+    
 }
 
 
@@ -59,7 +79,7 @@ body {
 }
 
 #introduction h1 {
-    color: #16B84E;
+    color: #2eb398;
     padding: 14px 0px 21px 0px;
     font-family: arial;
     margin: 0;
@@ -74,12 +94,6 @@ body {
   
 }
 
-
-
-}
-#middle {
-    
-}
 
 #middle p {
     line-height: 150%
@@ -99,12 +113,6 @@ body {
   padding:5px;
 }
 
-
-
-a:link { 
- text-decoration:none; 
- color: white;
-}
 
 li {
   list-style: none;
@@ -169,7 +177,7 @@ li {
 
 
 #before h2  {
-color: blue;
+color: #2eb398;
 font-family:cursive;
 text-align:center;
 padding:5px;
@@ -177,15 +185,19 @@ margin:0;
 
 }
 
+#present h2 {
+  color:#2eb398;
+  font-family:cursive;
+  text-align:center;
+  padding:5px;
+  margin:0;
+}
 
 
 
 #footer {
- 
-  border-radius:10px;
-  border:3px solid grey;
-  
-  background-color:#e0e0e0;
+   background-color:#14161b;
+
 }
 
 #apropos {
@@ -198,6 +210,7 @@ margin:0;
 
 #footer h3 {
   text-align:center;
+ color:#2eb398;
 }
 
 #apropos p {
@@ -205,6 +218,7 @@ margin:0;
   text-align:center;
   letter-spacing: 1px;
 line-height: 120%;
+color:#2eb398;
 }
 
 
@@ -232,8 +246,14 @@ line-height: 120%;
 
 
 #minimap {
-  padding:0px;
-  margin:0px;
+  margin:0;
+  text-align:center;
+  letter-spacing: 1px;
+line-height: 120%;
+color:#2eb398;
+width:300px;
+float:right;
+padding-right:160px;
 }
 
 
@@ -271,6 +291,10 @@ line-height: 120%;
 
 
 /* CV START */
+#intro h1 {
+  color:grey;
+}
+
 #retour {
   float:left;
   margin: 13px 0px 0px 11px;
@@ -284,8 +308,7 @@ line-height: 120%;
 }
 
 .apropos {
-  float:left;
-  width:300px;
+  
   margin-right:40px;
   text-align:center;
 }
@@ -293,23 +316,12 @@ line-height: 120%;
 
 
 .apropos img{
-  display:inline-block;
+  float:left;
 
 }
 
-.apropos h2 {
-  color:black;
-  background:
-linear-gradient(45deg, #92baac 45px, transparent 45px)64px 64px,
-linear-gradient(45deg, #92baac 45px, transparent 45px,transparent 91px, #e1ebbd 91px, #e1ebbd 135px, transparent 135px),
-linear-gradient(-45deg, #92baac 23px, transparent 23px, transparent 68px,#92baac 68px,#92baac 113px,transparent 113px,transparent 158px,#92baac 158px);
-background-color:#e1ebbd;
-background-size: 128px 128px;
-}
-.col-right {
-  float:right;
-  width:560px;
-}
+
+
 
 #parcours {
   clear:both;
@@ -320,6 +332,16 @@ background-size: 128px 128px;
 
 }
 
+#parcours .row1 {
+  float:left;
+  margin-right:230px;
+  border-right:1px solid black;
+  padding-right:155px;
+}
+
+#parcours h3 {
+  color:#2eb398;
+}
 
 
 a:link { 
@@ -336,12 +358,6 @@ a:visited {
   color:white;
 }
 
-.entete {
-  padding:3px;
-  
-  background-color:#e3e3e3;
-  border-radius:10px;
-}
 
 .textpres {
   float:left;
@@ -375,17 +391,13 @@ padding-left:0;
 }
    
 
-h1 {
-  color:#16B84E;
-}
+
 
 .apropos h2 {
-  color:black;
+  color:#2eb398;
 }
 
-h3 {
-  color:#82C46C;
-}
+
 
 li {
   color:black;
@@ -411,31 +423,33 @@ li {
   margin: 0 0 15px 0;
 }
 
+h2 {
+  color:#2eb398;
+}
+
+
+#entete ul li {
+  margin:0;
+}
 .first {
   text-decoration:underline;
   color:black solid;
   list-style:none;
   margin: 0 0 15px 0;
   font-style: italic;
+  font-size:20px;
 }
 
 .first2 {
   float:left;
+
 }
 
 .right {
   float:right;
 }
 
-.footer {
-  
-  width:100%; 
-  border-radius:10px;
-  padding:4px; 
-  border:3px solid grey;
-  padding:3px;
-  background-color:#e0e0e0;
-}
+
 
 .inner2 img {
   height:20px;
@@ -475,13 +489,90 @@ li {
 /***********************************************************************************************************************************************/
 
 
+/* ABOUT ME START*/
+
+#multimedia {
+  margin: 20px 20px 42px 20px;
+  padding-bottom:5px;
+}
+
+.tableau {
+  border-bottom:1px solid black;
+  text-align:center;
+  background-color:#14161b;
+  font-size:24px;
+}
+
+th {
+  text-align:center;
+  background-color:grey;
+  font-family: arial;
+}
+td 
+{
+  border:1px solid white;
+  padding:5px;
+  font-family:arial;
+}
+
+.tableau td {
+  color:#2eb398;
+}
+
+.row td { 
+border:2px solid white;
+padding:5px;
+
+}
+
+.ligne1{
+  background-color:#eeeeee;
+}
+
+.ligne2{
+  background-color:grey;
+}
+
+#ninjutsu h2 {
+  text-align:center;
+}
 
 
 
+#ninjutsu p {
+  margin:0;
+  padding:8px;
+  text-align:center;
+}
+
+/* EBOUT ME END*/
 
 
+/***********************************************************************************************************************************************/
+/***********************************************************************************************************************************************/
+/***********************************************************************************************************************************************/
+/***********************************************************************************************************************************************/
+/***********************************************************************************************************************************************/
 
+/* Contact START*/
+#join h3 {
+color: #2eb398;
+}
 
+#rateme h3 {
+  color: #2eb398;
+}
+
+input[type=submit] {
+  margin:37px;
+} 
+
+/* Contact END*/
+/***********************************************************************************************************************************************/
+/***********************************************************************************************************************************************/
+/***********************************************************************************************************************************************/
+/***********************************************************************************************************************************************/
+/***********************************************************************************************************************************************/
 
 
 
