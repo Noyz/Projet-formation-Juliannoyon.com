@@ -20,7 +20,7 @@ display:inline-block;
  }
 
 #entete .contenu li a {
-  padding:7px;
+  padding:7px 7px 7px 7px;
 
 }
 
@@ -29,6 +29,10 @@ display:inline-block;
   height:100px;
   color:grey;
  
+}
+
+.contenu {
+  padding-top:5px;
 }
 
 .contenu ul li {
