@@ -8,7 +8,7 @@ body {
 }
 
 #entete{
-  padding:3px;
+
   background-color:#14161b;
   height: 105px;
 }
@@ -20,51 +20,32 @@ display:inline-block;
  }
 
 #entete .contenu li a {
-<<<<<<< HEAD
-  padding:7px 7px 7px 7px;
-=======
-<<<<<<< HEAD
-  padding:6px 6px;
+ 
+padding-right: 50px;
   line-height:80px;
-=======
-  padding:7px;
->>>>>>> b706490e7b3ef21124bbdffd1f5471c57c64441e
->>>>>>> 028553336f3d780c69b031eb58201aff2ecd3d53
+  text-align:center;
 
 }
 
 #entete .contenu li a:hover {
   background-color:#2eb398;
-<<<<<<< HEAD
   height:105px;
   color:grey;
-
-=======
-  height:100px;
-  color:grey;
->>>>>>> b706490e7b3ef21124bbdffd1f5471c57c64441e
- 
+  
 }
 
-.contenu {
-  padding-top:5px;
-}
 
 .contenu ul li {
     color: rgb(230, 231, 230);
     float:right;
     font-size: 20px;
-<<<<<<< HEAD
     background-color:#14161b;
 }
 
 .contenu ul{
-margin:0;
-=======
-    margin:9px;
-    
-    background-color:#14161b;
->>>>>>> b706490e7b3ef21124bbdffd1f5471c57c64441e
+  margin:0;
+  background-color:#14161b;
+
 }
 
 #all {
@@ -513,7 +494,7 @@ h2 {
 
 
 /* ABOUT ME START*/
-<<<<<<< HEAD
+
 
 #multimedia {
   margin: 20px 20px 42px 20px;
@@ -557,7 +538,7 @@ padding:5px;
   background-color:grey;
 }
 
-=======
+
 
 #multimedia {
   margin: 20px 20px 42px 20px;
@@ -601,7 +582,7 @@ padding:5px;
   background-color:grey;
 }
 
->>>>>>> b706490e7b3ef21124bbdffd1f5471c57c64441e
+
 #ninjutsu h2 {
   text-align:center;
 }
