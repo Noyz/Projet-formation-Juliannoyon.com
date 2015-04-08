@@ -8,18 +8,18 @@ body {
 }
 
 #entete{
-  background-color:#14161b;
+  background-color:#16B84E;
   height: 81px;
 }
 
 #entete span {
   margin:0;
   font-family:Garamond, serif;
-  color:#CCCCFF;
+  color:#FFFFFF;
   float:left;
   padding-top:10px;
   padding-bottom:10px;
-  font-size:18px;
+  font-size:22px;
   
 }
 
@@ -40,11 +40,13 @@ display:inline-block;
   line-height:80px;
   text-align:center;
   font-family:Bookman;
-
+  padding-left: 50px;
+  background:#16B84E;
+  color:#FFFFFF;
 }
 
 #entete .contenu li a:hover {
-  background-color:#2eb398;
+  background-color:#80D0D0;
   height:81px;
   color:white;
   
@@ -60,7 +62,7 @@ display:inline-block;
 
 .contenu ul{
   margin:0;
-  background-color:#14161b;
+  
 
 }
 
@@ -100,7 +102,7 @@ display:inline-block;
 }
 
 #introduction h1 {
-    color: #2eb398;
+    color: #22780F;
     padding: 50px 0px 21px 0px;
     font-family: Bookman;
     margin: 0;
@@ -112,43 +114,63 @@ display:inline-block;
   margin:0;
   line-height: 150%;
   text-align:center;
-  
+  font-family:script, cursive;
 }
 
+#middle {
+  border-bottom:1px dotted grey;
+}
 
 #middle p {
   
     line-height: 150%;
+    font-family:bookman;
     
+}
+
+#middle h2 {
+  color:#1FA055;
 }
 
 #mescompetences h2 {
   margin:35px 0;
-  color:#2eb398;
+  color:#1FA055;
+  font-family:bookman;
 }
 
 #before {
   width: 400px;
   float: left;
-  text-align:center;
-  padding:5px;
+  text-align:justify;
+  padding: 5px 75px 5px 5px;
+  display:inline-block;
+
 }
 
 #present {
-  border-bottom:1px dotted grey;
   padding-bottom:48px;
-  text-align:center;
+  text-align:justify;
   padding:5px;
+  width:400px;
+  display:inline-block;
 }
 
 .imgCompetence {
-  height:60px;
+  
   width:85px;
   float:left;
-  border-radius:5px;
+  
   padding-right:20px;
   padding-bottom:10px;
   display:block;
+  margin-bottom:10px;
+}
+
+.liProgrammation {
+  display:block;
+  height:133px;
+  font-family:initial;
+  font-size:18px;
 }
 
 li {
@@ -156,71 +178,76 @@ li {
 
 }
 
-#competences li {
-  
+#competence ul {
+  padding-left:0px;
+  margin-left:0;
 }
 
 .logodev {
-   height: 90px;
     width: 118px;
     float: left;
-    padding-left:35px;
+    display:inline-block;
 }
 
 .langage {
     margin: 15px;
     padding-bottom:12px;
 }
+
+.langage img {
+  display:inline-block;
+}
     
 .barrevide {
-   background: black;
-    height: 17px;
-    width: 270px;
-    border: 1px solid black;
-    border-radius:15px;
-    float:right;
-    margin: 50px 240px 0 0;
-    padding:2px;
+   background: #f5f5f5;
+  height: 17px;
+  width: 710px;
+  
+  border-radius: 4px;
+  margin-top:50px;
+  padding: 2px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+  display:inline-block;
 
 }
 
 .barrecontent {
     background:#f16529;
     height:12px;
-    width:135px;
-    border-radius:9px;
+    width:355px;
+    border-radius:2px;
     padding-top: 5px;
 }
 
 .barrecontent2 {
     background:#0070ba;
     height:12px;
-    width:135px;
-    border-radius:9px;
+    width:355px;
+    border-radius:2px;
     padding-top: 5px;
 }
 
 .barrecontent3 {
     background:#d6ba32;
     height:12px;
-    width:80px;
-    border-radius:9px;
+    width:175px;
+    border-radius:2px;
     padding-top: 5px;
 }
 
 .barrecontent4 {
     background:#526191;
     height:12px;
-    width:50px;
-    border-radius:9px;
+    width:70px;
+    border-radius:2px;
     padding-top: 5px;
 }
 
 
 
 #before h2  {
-color: #2eb398;
-font-family:cursive;
+color: #1FA055;
+font-family:bookman;
 text-align:center;
 padding:5px;
 margin:0;
@@ -228,8 +255,8 @@ margin:0;
 }
 
 #present h2 {
-  color:#2eb398;
-  font-family:cursive;
+  color:#1FA055;
+  font-family:bookman;
   text-align:center;
   padding:5px;
   margin:0;
@@ -238,9 +265,20 @@ margin:0;
 
 
 #footer {
-   background-color:#14161b;width :1580px;
+   background-color:#16B84E;
    width:100%;
 
+}
+
+
+
+.fixed {
+  padding-left:25px;
+  padding-right:25px;
+  height:230px;
+  width:860px;
+  margin:0 auto;
+  padding-top:12px;
 }
 
 #apropos {
@@ -254,7 +292,9 @@ margin:0;
 #footer h3 {
   margin:0;
   text-align:center;
- color:#2eb398;
+  color:#FEFEFE;;
+  font-family: Bookman;
+
 }
 
 #apropos p {
@@ -263,19 +303,21 @@ margin:0;
   letter-spacing: 1px;
 line-height: 120%;
 color:#2eb398;
+
 }
 
 
 #referencesweb {
-  width:580px;
+  width:380px;
   padding-left: 30px;
   float:left;
   padding-right: 30px;
+  display:inline-block;
 
 }
 
 #referencesweb h3 {
-  text-align:center;
+  
   font-style:italic;
   margin: 0;
   padding-right:  30px;
@@ -284,7 +326,7 @@ color:#2eb398;
 }
 
 .logowebreference {
-  width:165px;
+  width:100px;
   padding:10px;
 }
 
@@ -296,13 +338,34 @@ color:#2eb398;
 line-height: 120%;
 color:#2eb398;
 width:300px;
-float:right;
-padding-right:16px;
+padding-right:20px;
+display:inline-block;
+float:left;
+}
+
+#minimap h3 {
+  padding-bottom:10px;
+  font-style:italic;
+  margin: 0;
+  padding-right:  30px;
+  padding-bottom:5px;
+}
+
+.joinme{
+  width:50px;
+  display:inline-block;
+  padding-top:40px;
+  padding-left:15px;
+}
+
+.minilogo {
+  display:inline-block;
+
 }
 
 
 
-.
+
 
 
 
@@ -350,6 +413,7 @@ padding-right:16px;
 .apropos p {
   font-size:17px;
   margin-top:80px;
+  font-family:Palatino Linotype;
 }
 
 
@@ -361,6 +425,8 @@ padding-right:16px;
 
 #parcours h2 {
   text-align:left;
+  color:#2eb398;
+  font-family:Georgia;
 
 }
 
@@ -371,8 +437,21 @@ padding-right:16px;
   padding-right:155px;
 }
 
-#parcours h3 {
+#formation h2 {
+  text-align:left;
   color:#2eb398;
+  font-family:Georgia;
+}
+#formation p {
+  font-family: Georgia;
+}
+
+.row1 ul {
+  padding-left:0;
+}
+
+#parcours h3 {
+  color:#29A04A;
 }
 
 
@@ -422,13 +501,23 @@ padding-left:0;
   
 }
    
+.helpline li{
+   line-height:22px;
+   font-family:initial;
+}
 
-
-
+#loisir h2{
+  color:#2eb398;
+  font-family:initial;
+}
 .apropos h2 {
   color:#2eb398;
 }
 
+.favoris {
+  padding-right:20px;
+  height: 100px
+}
 
 
 li {
@@ -455,7 +544,10 @@ li {
   margin: 0 0 25px 0;
 }
 
-
+#competence h2 {
+  color:#2eb398;
+  font-family:Georgia;
+}
 
 
 #entete ul li {
@@ -491,6 +583,18 @@ li {
   margin: 0 600px 0 5px;
 }
 
+.row ul li .first {
+  color:#29A04A;
+
+}
+
+.row ul li {
+  font-family: Georgia;
+}
+
+.row ul {
+  padding-left:0;
+}
 
 /* Float Shadow */
 .hvr-float-shadow {
@@ -530,26 +634,14 @@ li {
 .tableau {
   border-bottom:1px solid black;
   text-align:center;
-  background-color:#14161b;
+  background-color:#16B84E;
   font-size:24px;
 }
 
-th {
-  text-align:center;
-  background-color:grey;
-  font-family: arial;
-}
-
-
-td 
-{
-  border:1px solid white;
-  padding:5px;
-  font-family:arial;
-}
 
 .tableau td {
-  color:#2eb398;
+  color:#14161b;
+  background-color:#16B84E;
 }
 
 .row td { 
@@ -559,11 +651,11 @@ padding:5px;
 }
 
 .ligne1{
-  background-color:#eeeeee;
+  background-color:#82C46C;
 }
 
 .ligne2{
-  background-color:grey;
+  background-color:#096A09;
 }
 
 
@@ -592,9 +684,7 @@ td
   font-family:arial;
 }
 
-.tableau td {
-  color:#2eb398;
-}
+
 
 .row td { 
 border:2px solid white;
@@ -602,13 +692,6 @@ padding:5px;
 
 }
 
-.ligne1{
-  background-color:#eeeeee;
-}
-
-.ligne2{
-  background-color:grey;
-}
 
 
 #ninjutsu h2 {
