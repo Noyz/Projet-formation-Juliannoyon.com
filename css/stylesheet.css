@@ -8,9 +8,24 @@ body {
 }
 
 #entete{
-
   background-color:#14161b;
-  height: 105px;
+  height: 81px;
+}
+
+#entete span {
+  margin:0;
+  font-family:Garamond, serif;
+  color:#CCCCFF;
+  float:left;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:18px;
+  
+}
+
+#entete small {
+  display:block;
+  margin-top:10px;
 }
 
  a {
@@ -21,16 +36,17 @@ display:inline-block;
 
 #entete .contenu li a {
  
-padding-right: 50px;
+  padding-right: 50px;
   line-height:80px;
   text-align:center;
+  font-family:Bookman;
 
 }
 
 #entete .contenu li a:hover {
   background-color:#2eb398;
-  height:105px;
-  color:grey;
+  height:81px;
+  color:white;
   
 }
 
@@ -58,10 +74,11 @@ padding-right: 50px;
 
 
 .njlogo {
-  width: 100px;
-  height: 100px;
+  height: 80px;
+  width:80px;
   margin: 0;
   float:left;
+  padding-right:5px;
     
 }
 
@@ -84,8 +101,8 @@ padding-right: 50px;
 
 #introduction h1 {
     color: #2eb398;
-    padding: 14px 0px 21px 0px;
-    font-family: arial;
+    padding: 50px 0px 21px 0px;
+    font-family: Bookman;
     margin: 0;
     text-align:center;
 
@@ -100,7 +117,14 @@ padding-right: 50px;
 
 
 #middle p {
-    line-height: 150%
+  
+    line-height: 150%;
+    
+}
+
+#mescompetences h2 {
+  margin:35px 0;
+  color:#2eb398;
 }
 
 #before {
@@ -117,14 +141,21 @@ padding-right: 50px;
   padding:5px;
 }
 
+.imgCompetence {
+  height:40px;
+  width:40px;
+  float:left;
+  border-radius:5px;
+  padding-right:20px;
+}
 
 li {
   list-style: none;
 }
 
 .logodev {
-   height: 120px;
-    width: 150px;
+   height: 90px;
+    width: 118px;
     float: left;
     padding-left:35px;
 }
@@ -136,10 +167,10 @@ li {
     
 .barrevide {
    background: black;
-    height: 25px;
+    height: 17px;
     width: 270px;
     border: 1px solid black;
-    border-radius:10px;
+    border-radius:15px;
     float:right;
     margin: 50px 240px 0 0;
     padding:2px;
@@ -147,35 +178,35 @@ li {
 }
 
 .barrecontent {
-    background:#e44d26;
-    height:20px;
+    background:#f16529;
+    height:12px;
     width:135px;
     border-radius:9px;
-    padding: 4px 0px 1px 0;
+    padding-top: 5px;
 }
 
 .barrecontent2 {
     background:#0070ba;
-    height:20px;
+    height:12px;
     width:135px;
     border-radius:9px;
-    padding: 4px 0px 1px 0;
+    padding-top: 5px;
 }
 
 .barrecontent3 {
     background:#d6ba32;
-    height:20px;
+    height:12px;
     width:80px;
     border-radius:9px;
-    padding: 4px 0px 1px 0;
+    padding-top: 5px;
 }
 
 .barrecontent4 {
     background:#526191;
-    height:20px;
+    height:12px;
     width:50px;
     border-radius:9px;
-    padding: 4px 0px 1px 0;
+    padding-top: 5px;
 }
 
 
@@ -200,7 +231,8 @@ margin:0;
 
 
 #footer {
-   background-color:#14161b;
+   background-color:#14161b;width :1580px;
+   width:100%;
 
 }
 
@@ -244,7 +276,6 @@ color:#2eb398;
 
 .logowebreference {
   width:165px;
-  
   padding:10px;
 }
 
@@ -262,23 +293,7 @@ padding-right:160px;
 
 
 
-.progressbar {
-  height:20px;
-  background:black;
-  border-radius:5px;
-  width:350px;
-  padding:3px;
-}
-
-.content {
-  height:20px;
-  background:#EEE;
-  width:50%;
-}
-
-.progressbar.html .content{
-  background:blue;
-}
+.
 
 
 
@@ -322,6 +337,10 @@ padding-right:160px;
 .apropos img{
   float:left;
 
+}
+.apropos p {
+  font-size:17px;
+  margin-top:80px;
 }
 
 
@@ -427,9 +446,7 @@ li {
   margin: 0 0 15px 0;
 }
 
-h2 {
-  color:#2eb398;
-}
+
 
 
 #entete ul li {
@@ -513,6 +530,8 @@ th {
   background-color:grey;
   font-family: arial;
 }
+
+
 td 
 {
   border:1px solid white;
