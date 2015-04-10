@@ -378,20 +378,34 @@ margin:0;
   color:#29A04A;
 }
 
+#parcours .helpline {
+  padding-right:1px;
+  
+}
+
 #parcours .helpline li{
-  line-height:22px;
+  line-height:20 px;
   font-family:script, cursive;
 }
 
 #parcours .row1 {
   float:left;
-  margin-right:230px;
+  display:inline-block;
   border-right:1px solid black;
   padding-right:155px;
 }
 
 #parcours .row1 ul {
   padding-left:0;
+}
+
+#parcours .row2 {
+  padding-left: 15px;
+  display:inline-block;
+}
+
+#parcours .row2 ul {
+
 }
 
 .first {
@@ -627,7 +641,9 @@ li {
   list-style: none;
 }
 
-
+button {
+display:inline;
+}
 
 /*Hack */
 .clearfix {

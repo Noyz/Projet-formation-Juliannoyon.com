@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
-   $("button").toggle(function(){
-   	$('#toHide').show(1000);
+   $('button').click(function(){
+   	$('#toHide').toggle(1000);
    });
 });
 
