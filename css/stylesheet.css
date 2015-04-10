@@ -8,7 +8,7 @@ body {
 }
 
 #entete{
-  background-color:#27AE60;
+  background-color:#2ECC71;
   height: 81px;
 }
 
@@ -46,7 +46,7 @@ body {
   text-align:center;
   font-family:Bookman;
   padding-left: 50px;
-  background:#27AE60;
+  background:#2ECC71;
   color:#FFFFFF;
 }
 
@@ -134,7 +134,7 @@ margin:0;
 
 #before p {
   line-height:150%;
-  font-family:bookman;
+  font-family:script, cursive;;
 }
 
 #present {
@@ -155,7 +155,7 @@ margin:0;
 
 #present p {
   line-height:150%;
-  font-family:bookman;
+  font-family:script, cursive;;
 }
 
 #mescompetences h2 {
@@ -225,7 +225,7 @@ margin:0;
 }
 
 #footer {
-  background-color:#16B84E;
+  background-color:#2ECC71;
   width:100%;
 }
 
@@ -296,47 +296,6 @@ margin:0;
 .minilogo {
   display:inline-block;
 }
-
-
-
-
-
-#apropos {
-  width:250px;
-  padding-left: 30px;
-  float:left;
-  padding-right: 50px;
-}
-
-
-
-
-#apropos p {
-  margin:0;
-  text-align:center;
-  letter-spacing: 1px;
-line-height: 120%;
-color:#2eb398;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /***********************************************************************************************************************************************/
@@ -421,7 +380,7 @@ color:#2eb398;
 
 #parcours .helpline li{
   line-height:22px;
-  font-family:initial;
+  font-family:script, cursive;
 }
 
 #parcours .row1 {
@@ -450,20 +409,23 @@ color:#2eb398;
   font-family:Georgia;
 }
 #formation p {
-  font-family: Georgia;
+  font-family: script, cursive;;
 }
 
 .row ul li .first {
   color:#29A04A;
-
 }
 
 .row ul li {
-  font-family: Georgia;
+  font-family: script, cursive;;
 }
 
 .row ul {
   padding-left:0;
+}
+
+#toHide {
+  display:none;
 }
 
 #loisir h2{
@@ -553,6 +515,7 @@ padding:5px;
   margin:0;
   padding:8px;
   text-align:center;
+  font-family:script, cursive;
 }
 
 /* ABOUT ME END*/
