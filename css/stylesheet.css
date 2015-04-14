@@ -104,7 +104,7 @@ display:inline-block;
   margin:0;
   line-height: 150%;
   text-align:center;
-  font-family:script, cursive;
+  font-family:Lucida Sans Unicode;
 }
 
 #middle {
@@ -134,7 +134,7 @@ margin:0;
 
 #before p {
   line-height:150%;
-  font-family:script, cursive;;
+  font-family:Lucida Sans Unicode;
 }
 
 #present {
@@ -155,7 +155,7 @@ margin:0;
 
 #present p {
   line-height:150%;
-  font-family:script, cursive;;
+  font-family:Lucida Sans Unicode;
 }
 
 #mescompetences h2 {
@@ -385,7 +385,7 @@ margin:0;
 
 #parcours .helpline li{
   line-height:20 px;
-  font-family:script, cursive;
+  font-family:Lucida Sans Unicode;
 }
 
 #parcours .row1 {
@@ -423,7 +423,7 @@ margin:0;
   font-family:Georgia;
 }
 #formation p {
-  font-family: script, cursive;;
+  font-family:Lucida Sans Unicode;
 }
 
 .row ul li .first {
@@ -431,7 +431,7 @@ margin:0;
 }
 
 .row ul li {
-  font-family: script, cursive;;
+  font-family:Lucida Sans Unicode;
 }
 
 .row ul {
@@ -471,11 +471,6 @@ margin:0;
   padding-left: 90px;
 }
 
-.tableau tr {
-  font-family:Bookman;
-  border-left:1px solid;
-
-} 
 
 .tableau {
   border-bottom:1px solid black;
@@ -484,6 +479,11 @@ margin:0;
   font-size:24px;
 }
 
+.tableau tr {
+  font-family:Bookman;
+  border-left:1px solid black;
+  background-color:#BDC3C7;
+} 
 
 .tableau td {
   color:white;
@@ -495,8 +495,8 @@ margin:0;
 
 .tableau th {
   text-align:center;
-  background-color:grey;
-  font-family: arial;
+  background-color:#BDC3C7;
+  font-family: script;
 }
 
 .ligne1{
@@ -508,7 +508,8 @@ margin:0;
 }
 
 .ligne2{
-  background-color:#096A09;
+  background-color:#1ABC9C;
+
 }
 
 .ligne2 td {
@@ -516,7 +517,6 @@ margin:0;
 }
 
 .random td { 
-border:2px solid white;
 padding:5px;
 }
 
@@ -529,7 +529,7 @@ padding:5px;
   margin:0;
   padding:8px;
   text-align:center;
-  font-family:script, cursive;
+  font-family:Lucida Sans Unicode;
 }
 
 /* ABOUT ME END*/
