@@ -399,8 +399,10 @@ margin:0;
 }
 
 #parcours .row2 {
-  padding-left: 15px;
-  display:inline-block;
+  display: inline-block;
+  margin-left: 13px;
+  width: 770px;
+  position: absolute;
 }
 
 #parcours .row2 ul {
