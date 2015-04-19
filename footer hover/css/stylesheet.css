@@ -9,15 +9,44 @@
 
 img {
 	width:250px;
-	position:relative;
 }
 
 .petitTexte {
 	background-color:grey;
+	
 	padding:10px;
-	position:absolute;
 }
 
-.cache {
+.hide1 {
+	display:none;
+}
+
+.hide2 {
+	display:none;
+}
+
+.hide3 {
+	display:none;
+}
+
+.hide4 {
+	display:none;
+}
+.hide5 {
+	display:none;
+}
+
+.hide6 {
+	display:none;
+}
+.hide7 {
+	display:none;
+}
+
+.hide8 {
+	display:none;
+}
+
+.hide9 {
 	display:none;
 }
