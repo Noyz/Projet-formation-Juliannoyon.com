@@ -401,8 +401,7 @@ margin:0;
 #parcours .row2 {
   display: inline-block;
   margin-left: 13px;
-  width: 770px;
-  position: absolute;
+  
 }
 
 #parcours .row2 ul {
@@ -647,9 +646,19 @@ display:inline;
 }
 
 /*Hack */
-.clearfix {
-  overflow: auto;
-  margin:0;
+
+
+ .clearfix {
+  height:1%
+}
+
+.clearfix:after {
+       content:".";
+       height:0;
+       line-height:0;
+       display:block;
+       visibility:hidden;
+       clear:both;
 }
 
 .hvr-grow {
