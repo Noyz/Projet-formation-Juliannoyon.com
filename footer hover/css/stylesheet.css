@@ -1,39 +1,18 @@
-<<<<<<< HEAD
-
 
 .pcmasterrace {
 	width:500px;
 	}
 
-#footer {
-	width:100%;
+.normal {
+	width:500px;
 	position:absolute;
 	height: 30px;
-	
 	background-color:grey;
 }
 
-#footer:hover{
-background-color:red;
+.normal:hover{
+
 height:100px;
-=======
-#all {
-	width:900px;
-	border:1px solid black;
-	margin:0 auto;
-}
+padding-top:13em;
 
-.pcmasterrace {
-	width:200px;
-	display:inline-block;
-	padding-right:10px;
-}
-
-#footer {
-	width:100%;
-	position:relative;
-	height: 50px;
-	
-	background-color:grey;
->>>>>>> 7fc4a60e194c2288033c5b8549448e695ef3fea6
 }
