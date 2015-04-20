@@ -1,0 +1,19 @@
+#all {
+	width:900px;
+	border:1px solid black;
+	margin:0 auto;
+}
+
+.pcmasterrace {
+	width:200px;
+	display:inline-block;
+	padding-right:10px;
+}
+
+#footer {
+	width:100%;
+	position:relative;
+	height: 50px;
+	
+	background-color:grey;
+}
