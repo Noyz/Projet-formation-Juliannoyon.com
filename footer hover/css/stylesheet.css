@@ -1,37 +1,6 @@
-
-.pcmasterrace {
-	width:500px;
-	}
-
-.normal {
-  width: 500px;
-  position: absolute;
-  height: 53px;
-  background-color: grey;
-  top: 237px;
+.gun {
+	width:250px;
+	margin-right:10px;
 }
 
-.actif {
-	display:none;
-}
-
-.normal:hover {
-	margin-top:-75px;
-	height:150px;
-	top: 215px;
-}
-
-.normal:hover .actif {
-	display:block;
-	margin:0;
-	
-}
-
-.animation {
-	height:100px;
-	width:100px;
-	background-color:red;
-	position:absolute;
-	top:190px;
-}
 
