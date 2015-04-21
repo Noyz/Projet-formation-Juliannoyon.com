@@ -4,15 +4,34 @@
 	}
 
 .normal {
-	width:500px;
+  width: 500px;
+  position: absolute;
+  height: 53px;
+  background-color: grey;
+  top: 237px;
+}
+
+.actif {
+	display:none;
+}
+
+.normal:hover {
+	margin-top:-75px;
+	height:150px;
+	top: 215px;
+}
+
+.normal:hover .actif {
+	display:block;
+	margin:0;
+	
+}
+
+.animation {
+	height:100px;
+	width:100px;
+	background-color:red;
 	position:absolute;
-	height: 30px;
-	background-color:grey;
+	top:190px;
 }
 
-.normal:hover{
-
-height:100px;
-padding-top:13em;
-
-}
