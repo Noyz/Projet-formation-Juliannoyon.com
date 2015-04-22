@@ -1,14 +1,8 @@
 $('document').ready(function() {
-	$(".animation").mouseenter(function() {
-		$(this).animate({
-           height: '+=120px'
+	$('.row1').mouseenter(function(){
+		$('.hide').show(1000);
 	});
-		$(this).css("top", "80px"); 
-});
-	$(".animation").mouseleave(function(){
-		$(this).animate({
-			height: '-=150px'
-		});
-		$(this).css("top", "190px" );
+	$('.tier').mouseleave(function(){
+		$('.hide').hide(1000);
 	});
 });
