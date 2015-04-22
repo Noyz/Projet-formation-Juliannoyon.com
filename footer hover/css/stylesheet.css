@@ -1,13 +1,17 @@
-.gun {
-	width:250px;
-	margin-right:10px;
 
+.tier {
+	display:inline-block;
 }
 
- p {
-	position:absolute;
-	top:155px;
+img {
+	width:250px;
+}
+
+.petitTexte {
 	background-color:grey;
 }
 
+.hide {
+	display:none;
+}
 
