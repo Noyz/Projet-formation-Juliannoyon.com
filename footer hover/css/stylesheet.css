@@ -6,6 +6,7 @@
 	margin-left:10px;
 }
 
+
 img {
 	width:250px;
 }
@@ -16,10 +17,11 @@ img {
 	padding:10px;
 }
 
-.hide {
+.hide1 {
 	display:none;
 }
 
-.tier1 {
-	display:inline-block;
+.hide2 {
+	display:none;
 }
+
