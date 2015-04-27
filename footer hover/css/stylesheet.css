@@ -11,17 +11,34 @@ img {
 	width:250px;
 }
 
-.petitTexte {
+.picture {
+	position:relative;
+}
+
+
+
+.hide {
+	display:none;
+}
+
+.row1 .petitTexte {
+	position:absolute;
 	background-color:grey;
-	
-	padding:10px;
+	top:136px;
+	width:250px;
 }
 
-.hide1 {
-	display:none;
+.row2 .petitTexte {
+	position:absolute;
+	background-color:grey;
+	top:338px;
+	width:250px;
 }
 
-.hide2 {
-	display:none;
+.row3 .petitTexte {
+	position:absolute;
+	background-color:grey;
+	top:640px;
+	width:250px;
 }
 
