@@ -6,20 +6,23 @@
 	margin-left:10px;
 }
 
-
 img {
 	width:250px;
+	position:relative;
 }
+
 
 .picture {
 	position:relative;
 }
 
 
-
-.hide {
-	display:none;
+.petitTexte {
+	background-color:grey;
+	padding:10px;
+	position:absolute;
 }
+
 
 .row1 .petitTexte {
 	position:absolute;
@@ -40,5 +43,11 @@ img {
 	background-color:grey;
 	top:640px;
 	width:250px;
+}
+
+
+
+.cache {
+	display:none;
 }
 
