@@ -1,53 +1,29 @@
 
 .tier {
-	display:inline-block;
-	padding:5px;
-	margin-right:10px;
-	margin-left:10px;
-}
-
-img {
-	width:250px;
 	position:relative;
+  margin:10px 10px;
+  float:left;
+  width:200px;
 }
 
 
-.picture {
-	position:relative;
+.tier img {
+	width: 100%;
+  display:block;
 }
+
 
 
 .petitTexte {
-	background-color:grey;
-	padding:10px;
-	position:absolute;
+	background:#CCC;
+  position:absolute;
+  bottom:0px;
+  left:0;
+  right:0;
+  padding:5px 10px;
 }
 
-
-.row1 .petitTexte {
-	position:absolute;
-	background-color:grey;
-	top:136px;
-	width:250px;
-}
-
-.row2 .petitTexte {
-	position:absolute;
-	background-color:grey;
-	top:338px;
-	width:250px;
-}
-
-.row3 .petitTexte {
-	position:absolute;
-	background-color:grey;
-	top:640px;
-	width:250px;
-}
-
-
-
-.cache {
+.tier .hide {
 	display:none;
 }
 
