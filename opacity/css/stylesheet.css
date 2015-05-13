@@ -1,8 +1,13 @@
+.relative {
+	position:relative;
+	margin:10px 10px;
+ 	float:left;
+  width:200px;
+}
+
 img {
 	width : 200px;
 	opacity:0.5;
-	display:relative;
-
 }
 
 img:hover {
@@ -14,8 +19,10 @@ img:hover {
 	}
 
 .description {
-	position:absolute;
-	padding:10px;
-	background-color:grey;
-	
+	background:grey;
+ 	position:absolute;
+ 	bottom:0px;
+ 	left:0;
+ 	right:0;
+ 	padding:5px 5px;
 }
