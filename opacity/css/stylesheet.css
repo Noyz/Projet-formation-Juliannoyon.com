@@ -1,0 +1,21 @@
+img {
+	width : 200px;
+	opacity:0.5;
+	display:relative;
+
+}
+
+img:hover {
+	opacity:1.0;
+	}
+
+	.hide {
+		display:none;
+	}
+
+.description {
+	position:absolute;
+	padding:10px;
+	background-color:grey;
+	
+}
