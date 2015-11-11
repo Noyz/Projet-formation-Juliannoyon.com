@@ -223,6 +223,16 @@ margin:0;
   padding-top: 5px;
 }
 
+.barrecontent5 {
+  background:grey;
+  height:12px;
+  width:120px;
+  border-radius:2px;
+  padding-top: 5px;
+}
+
+
+
 #footer {
   background-color:#2ECC71;
   width:100%;
@@ -327,6 +337,10 @@ margin:0;
   font-family:consolas;
 }
 
+#competence {
+  margin:0 0 25px 0;
+}
+
 #competence h2 {
   color:#2eb398;
   font-family:Georgia;
@@ -417,6 +431,10 @@ margin:0;
   font-size:20px;
 }
 
+#formation {
+  margin-bottom:70px;
+}
+
 #formation h2 {
   text-align:left;
   color:#2eb398;
@@ -425,6 +443,8 @@ margin:0;
 #formation p {
   font-family:Lucida Sans Unicode;
 }
+
+
 
 .row ul li .first {
   color:#29A04A;
