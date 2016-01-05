@@ -1,3 +1,14 @@
+@font-face {
+font-family: 'LateNoise';
+src: url('LateNoise.eot?') format('eot'),
+     url('LateNoise.otf') format('truetype'),
+     url('quadranta.woff') format('woff'),
+     url('quadranta.svg#QuadrantaBold') format('svg');
+font-weight: normal;
+font-style: normal;
+}  
+
+/*************************************************************************************************************************/
 
 body {
   font-family:Verdana, sans-serif;
@@ -5,6 +16,8 @@ body {
   background-color:white;
   margin:0;
   width:100%;
+  z-index:-1;
+ 
 }
 
 #entete{
@@ -18,7 +31,6 @@ body {
   color:#FFFFFF;
   float:left;
   padding-top:10px;
-  padding-bottom:10px;
   font-size:22px;
   
 }
@@ -26,6 +38,7 @@ body {
 #entete small {
   display:block;
   margin-top:10px;
+
 }
 
 #entete .contenu ul {
@@ -61,20 +74,42 @@ body {
   margin: 0;
   float:left;
   padding-right:5px;
+  border-radius:100%;
+
     
 }
 
  a {
 color:#2eb398;
-
  }
 
+ #main{
+  margin:0px;
+  position:relative;
+ }
+
+
+
+
+ #textSmall{
+  position:absolute;
+  top:450px;
+  left:700px;
+  font-size:50px;
+  z-index: 1;
+  font-family: 'Kaushan Script', cursive;
+  color:white;
+ }
+
+
+
 #all {
-  width:900px;
+  
   background-color:white;
   margin:0 auto ;
   padding:20px;
 }
+
 
 #first {
   border-bottom:1px dotted grey;
@@ -178,60 +213,75 @@ margin:0;
   display:inline-block;
 }
 
-.barrevide {
-   background: #f5f5f5;
-  height: 17px;
-  width: 710px;
-  
+.progress {
+  height: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: #F5F5F5;
   border-radius: 4px;
-  margin-top:50px;
-  padding: 2px;
-  box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
-  display:inline-block;
-
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  position:relative;
+  margin-top: 50px
 }
 
-.barrecontent {
+.bar{
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  text-align: center;
+}
+
+.valeurProgress{
+  color:white;
+
+}
+.progressHtml {
   background:#f16529;
-  height:12px;
-  width:515px;
+  height:25px;
+  width:0%;
   border-radius:2px;
   padding-top: 5px;
+  display:block;
+  height:25px;
+  
 }
 
-.barrecontent2 {
+.progressCss {
   background:#0070ba;
   height:12px;
-  width:355px;
+  width:0%;
   border-radius:2px;
   padding-top: 5px;
+  display:block;
+  height:25px;
 }
 
-.barrecontent3 {
+.progressJs {
   background:#d6ba32;
   height:12px;
-  width:175px;
+  width:0%;
   border-radius:2px;
   padding-top: 5px;
+  height:25px;
 }
 
-.barrecontent4 {
+.progressJquery {
   background:#526191;
   height:12px;
-  width:70px;
+  width:0%;
   border-radius:2px;
   padding-top: 5px;
+  height:25px;
 }
 
-.barrecontent5 {
-  background:grey;
+.progressAngular {
+  background:#e62a39;
   height:12px;
-  width:120px;
+  width:0%;
   border-radius:2px;
   padding-top: 5px;
+  height:25px;
 }
-
-
 
 #footer {
   background-color:#2ECC71;
@@ -327,9 +377,14 @@ margin:0;
   text-align:center;
 }
 
-.apropos img{
-  float:left;
+#me {
+  border-radius:100%;
+  width:250px;
+  height:auto;
+  
+  
 }
+
 
 .apropos p {
   font-size:17px;
@@ -338,7 +393,8 @@ margin:0;
 }
 
 #competence {
-  margin:0 0 25px 0;
+  margin:0 auto;
+width:900px;
 }
 
 #competence h2 {
@@ -379,6 +435,8 @@ margin:0;
 
 #parcours {
   clear:both;
+  width:900px;
+  margin:0px auto;
 }
 
 #parcours h2 {
@@ -432,7 +490,8 @@ margin:0;
 }
 
 #formation {
-  margin-bottom:70px;
+  width:900px;
+  margin:0 auto;
 }
 
 #formation h2 {

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+	<html>
+		<head>		
+			<title>Le site de Julian NOYON Développeur web </title>
+			<style>
+				#uneIdee{
+					height: 20px;
+					width:20px;
+					background-color:red;
+				} 
+					
+				#fefe {
+					position:absolute;
+					top:150px;
+					left:50px;
+				}
+			</style>
+			<script>
+				window.onload =function() {
+					var increm = 50;
+					var idee = document.getElementById('uneIdee');
+					var fifi = document.getElementById('fefe');		
+					function timer(){
+						var timerGo = setInterval(function(){increm += 3;  fifi.style.left = increm + "px"}, 500);
+					};
+					function stopTimer(){
+						clearInterval(timerGo);
+					};
+				};
+			</script>  
+		</head>
+		<body>
+			<div id="uneIdee" onclick="stopTimer()" ></div>
+			<p id = "fefe" onclick="timer()">Du texte</p>
+		</body>
+	</html>
+	

@@ -1,0 +1,21 @@
+{
+  "name": "rippleria",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": ["dist/jquery.rippleria.min.js", "dist/jquery.rippleria.min.css"],
+  "homepage": "https://github.com/nsept/rippleria",
+  "description": "Just Another Google Material Design Ripple Effect with jQuery and CSS3",
+  "authors": [
+    "Nsept <nsept@ya.ru>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7"
+  }
+}

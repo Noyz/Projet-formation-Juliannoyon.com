@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<link type="text/css" href="css/styleJeuCv.css"  rel="stylesheet"/>
+		<script type="text/javascript" src="js/jeuCV.js"></script>
+		<script type="text/javascript" src="js/pageJeu.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+		<title>Mon projet jeu</title>
+	</head>
+	<body>
+		<header>
+			<ul style="list-style:none; margin:0">
+				<li>
+					<a href="index.html" target="_self" >
+						<img src="imgJeu/back.gif" id="backPanel" />
+						<div class="menu">
+					</a>
+						<p>Page d'accueil</p>
+					</div>
+				</li>
+
+				<li>
+					<a href="jeuCV.html" target="_self">
+						<img src="imgJeu/controller.png" id="controller"/>
+					</a>
+					<div class="menu">
+						<p>Cv Interactif</p>
+					</div>
+				</li>
+
+				<li>
+					<a href="CV.pdf" target="_blank">
+						<img src="imgJeu/star.png" id="star"/>
+					</a>
+					<div class="menu">
+						<p>MON CV</p>
+					</div>
+				</li>
+				<li>
+					<a href="myself.html" target="_self">
+						<img src="imgJeu/heart.png" id="heart" />
+					</a>
+						<div class="menu">
+							<p>Qui suis-je?</p>
+						</div>
+				</li>
+				<li>
+					<a href="contactJeu.html" target="_self">
+						<img src="imgJeu/mail.gif" id="mail" />
+					</a>
+					<div class="menu">
+						<p>Contact</p>
+					</div>
+				</li>
+			</ul>
+		</header>
+		<section>
+			<ul id="competences">Compétences
+				<li><img src="imgJeu/miniwoodplank.gif" class="woodPlank"/><img src="imgJeu/minilock.gif" class="lock" id="lockhtml"/></li>
+				<li><img src="imgJeu/miniwoodplank.gif" class="woodPlank"/><img src="imgJeu/minilock.gif" class="lock" id="lockcss"/></li>
+				<li><img src="imgJeu/miniwoodplank.gif" class="woodPlank"/><img src="imgJeu/minilock.gif" class="lock" id="lockjavascript"/></li>
+				<li><img src="imgJeu/miniwoodplank.gif" class="woodPlank"/><img src="imgJeu/minilock.gif" class="lock" id="lockangular"/></li>
+				<li><img src="imgJeu/miniwoodplank.gif" class="woodPlank"/><img src="imgJeu/minilock.gif" class="lock" id="lockjquery"/></li>
+				<li><img src="imgJeu/miniwoodplank.gif" class="woodPlank"/><img src="imgJeu/minilock.gif" class="lock" id="locknode"/></li>
+				<li><img src="imgJeu/miniwoodplank.gif" class="woodPlank"/><img src="imgJeu/minilock.gif" class="lock" id="lockmongo"/></li>
+			</ul>
+			<ul id="controle">Contrôles
+				<li><img src="imgJeu/miniwoodplank.gif" class="woodPlank"/><img src="imgJeu/newsjump.png" class="controlePanel"/></li>
+				<li><img src="imgJeu/miniwoodplank.gif" class="woodPlank"/><img src="imgJeu/newenterattack.png" class="controlePanel"/></li>
+				<li><img src="imgJeu/miniwoodplank.gif" class="woodPlank"/><img src="imgJeu/newleftrightrun.png" class="controlePanel" id="changeControle"/></li>
+			</ul>
+			<ul id="options">options
+				<li>
+					<img src="imgJeu/miniwoodplank.gif" class="woodPlank"/><img src="imgJeu/soundOn.gif" id="sound"/>
+					<audio  id="jungle" autoplay>
+					  Votre navigateur ne gère pas l'élément <code>video</code>.
+					</audio>
+				</li>
+			</ul>	
+		</section>
+		<div id="cadreJeu">
+			<ul>
+				<li><img src="imgJeu/exotic.png" id="startGame"/></li>
+				<li><input type="image" src="imgJeu/PLAY.png" alt="Submit" id="playGame"></li>
+				<li><input type="image" src="imgJeu/CREDITS.png" alt="Submit" id="creditsGame"></li>
+			</ul>
+			<div id="score"></div>
+			<div id="nextComp"></div>
+			<div id="masque">
+				<img src="imgJeu/test3L.gif" alt="monPerso" id="monPerso"/>
+			</div>
+		</div>		
+	</body>
+</html>

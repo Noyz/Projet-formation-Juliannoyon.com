@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<link type="text/css" href="css/styleJeuCv.css"  rel="stylesheet"/>
+		<script type="text/javascript" src="js/jeuCV.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+		<title>Mon projet jeu</title>
+	</head>
+	<body>
+		<header>
+			<ul style="list-style:none; margin:0">
+				<li>
+					<a href="index.html" target="_self">
+						<img src="imgJeu/back.gif" id="backPanel" />
+						<div class="menu">
+					</a>
+						<p>Page d'accueil</p>
+					</div>
+				</li>
+
+				<li>
+					<a href="jeuCV.html" target="_self">
+						<img src="imgJeu/controller.png" id="controller"/>
+					</a>
+					<div class="menu">
+						<p>Cv Interactif</p>
+					</div>
+				</li>
+
+				<li>
+					<a href="CV.pdf" target="_blank">
+						<img src="imgJeu/star.png" id="star"/>
+					</a>
+					<div class="menu">
+						<p>MON CV</p>
+					</div>
+				</li>
+				<li>
+					<a href="myself.html" target="_self">
+						<img src="imgJeu/heart.png" id="heart" />
+					</a>
+						<div class="menu">
+							<p>Qui suis-je?</p>
+						</div>
+				</li>
+				<li>
+					<a href="contactJeu.html" target="_self">
+						<img src="imgJeu/mail.gif" id="mail" />
+					</a>
+					<div class="menu">
+						<p>Contact</p>
+					</div>
+				</li>
+			</ul>
+		</header>
+		<div id="all">
+	        <div id="join">
+	    		<h3>Service temporairement indisponible</h3>
+	          	<form method="post" action="">
+	            	<fieldset>
+	              	<legend>Vos coordonnées</legend>
+		            <p>
+		            	<label for="name">Nom & Prénom : </label>
+		                <input type="text" name="name" id="name" size="30" maxlength="15" placeholder="Ex : NOYON Julian"/>
+		            </p>
+		            <p>
+		                <label for="email">Votre e-mail : </label>
+		                <input type="email" name="email" id="email" placeholder="Ex : Julian.noyon@gmail.com" width="350px">
+		            </p>
+		            <p>
+		                <label for="tel">Numéro de téléphone : </label>
+		                <input type="tel" name="tel" id="tel" maxlength="10"/>
+		            </p>
+		            <p>
+		                <label for="url">Insérer l'adresse de votre site internet : </label>
+		                <input type="url" name="url" id="url" placeholder="Ex : Juliannoyon.com"/>
+		            </p>
+		            <p>
+		                <label for="message">Votre message : </label>
+		                <textarea name="message"  id="message" rows="5" cols="35">
+		                </textarea>
+		            </p>     
+	              <input type="submit" value="Envoyer" />         
+	            </fieldset>
+	          </form>
+	        </div>
+      	</div>
+	</body>
+</html>
