@@ -10,6 +10,17 @@ font-weight: normal;
 font-style: normal;
 }
 
+@font-face {
+font-family: 'Tropicana';
+src: url('../imgJeu/fonts/Tropicana-Plain.eot');
+src: url('../imgJeu/fonts/Tropicana-Plain.ttf') format('truetype'),
+     url('../imgJeu/fonts/TropicanaPlain.woff') format('woff'),
+     url('../imgJeu/fonts/Tropicana-Plain.eot?#iefix') format('embedded-opentype'),
+     url('../imgJeu/fonts/TropicanaPlain.svg') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
 body {
 	background: url("../imgJeu/tropical.jpg");
 	background-size: cover;
@@ -62,10 +73,11 @@ header ul li:nth-child(4) div {
 	position: relative;
 	height: 103px;
 	overflow:hidden;
-	font-family:hanalei-regular-webfont;
+	font-family:Tropicana;
 	font-size:30px;
 	line-height:5px;
 	float:left;
+	color:#529d04;
 }
 
 
@@ -123,7 +135,7 @@ header ul li:nth-child(4) div {
 	margin-top:40px;
 	list-style: none;
 	font-size:40px;
-	font-family:hanalei-regular-webfont;
+	font-family:Tropicana;
 	color:white;
 	background-color:#529d04;
 	float:left;
@@ -140,7 +152,7 @@ header ul li:nth-child(4) div {
 	float:right;
 	list-style: none;
 	font-size:40px;
-	font-family:hanalei-regular-webfont;
+	font-family:Tropicana;
 	color:white;
 	background-color:#529d04;
 	position:relative;
@@ -180,7 +192,7 @@ header ul li:nth-child(4) div {
 	float:right;
 	list-style: none;
 	font-size:40px;
-	font-family:hanalei-regular-webfont;
+	font-family:Tropicana;
 	color:white;
 	background-color:#529d04;
 	height:100px;
@@ -195,13 +207,46 @@ header ul li:nth-child(4) div {
 	left:15px;
 }
 
+#instruction{
+	background-color:rgba(82,157,4, 0.8);
+  	width:800px;
+  	background-opacity:0.5;
+	font-family:Tropicana;
+	position:absolute; 
+	color:white;
+	margin-left:200px;
+	font-size:30px; 
+	top: 120px;
+	left: 200px;
+    border-top: 5px solid #fff;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(transparent));
+    background-image: -webkit-linear-gradient(#fff, transparent);
+    background-image:
+        -moz-linear-gradient(#fff, transparent),
+        -moz-linear-gradient(#fff, transparent)
+    ;
+    background-image:
+        -o-linear-gradient(#fff, transparent),
+        -o-linear-gradient(#fff, transparent)
+    ;
+    background-image: 
+        linear-gradient(#fff, transparent),
+        linear-gradient(#fff, transparent)
+    ;
+    -moz-background-size:5px 100%;
+    background-size:5px 100%;
+    background-position:0 0, 100% 0;
+    background-repeat:no-repeat;
+	
+}
+
 #cadreJeu{
 	position:absolute;
 	background: url("../imgJeu/stage-2.gif");
 	width: 751.875px;
 	height: 401px;
 	margin: auto;
-	top: 0px;
+	top: 150px;
 	left: 0px;
 	bottom: 0px;
 	right: 0px;
@@ -227,9 +272,15 @@ header ul li:nth-child(4) div {
 	width: 187px;
 	height: 87px;
 }
-#creditstGame{
+#playGame:hover{
+	transform:scale(1.2);
+}
+#creditdGame{
 	width: 279px;
 	height: 90px;
+}
+#creditsGame:hover{
+	transform:scale(1.2);
 }
 
 #sound {
@@ -252,7 +303,7 @@ header ul li:nth-child(4) div {
 	height: 88px;
 	width: 65px;
 	overflow: hidden;
-	border:1px solid black;
+	/*border:1px solid black;*/
 	position:absolute;
 	left: 150px;
 }
@@ -267,7 +318,8 @@ header ul li:nth-child(4) div {
 
 #aboutMe p {
 	background-color:rgba(0,0,0, 0.5);
-	font-family: 'Architects Daughter', cursive;
+	/*font-family: 'Architects Daughter', cursive;*/
+	font-family:Tropicana;
 	color:white;
 	font-size:40px;
 	width:900px;

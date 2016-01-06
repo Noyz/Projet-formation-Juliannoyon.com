@@ -31,13 +31,15 @@ $(document).ready(function(){
             break;
 
             case "-65px" :
-            $('#monPerso').css("left","-129px");
+            $('#monPerso').css("left","-130px");
             break;
 
-            case "-129px" :
-            $('#monPerso').css("left","-194px");
+            case "-130px" :
+            $('#masque').css('width','63px');
+            $('#monPerso').css("left","-195px");
             break;
-           case "-194px" :
+
+           case "-195px" :
             $('#monPerso').css("left","-258px");
             break;
            
@@ -47,10 +49,10 @@ $(document).ready(function(){
             break;
            
            case "-322px" :
-            $('#monPerso').css("left","-388px");
+            $('#monPerso').css("left","-387px");
             break;
            
-           case "-388px" :
+           case "-387px" :
            $('#masque').css('width','63px');
             $('#monPerso').css("left","-452px");
             break;
@@ -295,6 +297,7 @@ $(document).ready(function(){
     /*****************************************DEMARRAGE JEU!!!!********************************************************************/
     $('#playGame').click(function(){
       $('#cadreJeu ul').css("display","none");
+      $('#instruction').css("display","none");
       isIdling = 0;
       isIdlingLeft = 0;
       isWalking = 0;
@@ -304,7 +307,9 @@ $(document).ready(function(){
   };
 
   startGame();
+      
 
+    
     
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -316,11 +321,16 @@ $(document).ready(function(){
     $("#changeControle").replaceWith( "<img src='imgJeu/cslide.png' class='controlePanel'/>");
     var variable = true, variable2 = true,stopDie = true,interrupteurJump = true, addLeft =0, addUp = -370,isJumping,isSliding,glisse = true,saute = true, isDying,isIdling,isAttacking,isAttacking, isDashing, isDizzing, cadre = document.getElementById("cadreJeu");
     document.addEventListener('load', dash(), true);
-    var audio = new Audio('Audio/SFX_Jump_11.wav');
-    var coinAudio = new Audio('Audio/coin.mp3');
-    var hurtAudio = new Audio('Audio/coin.mp3');
-    var hitAudio = new Audio('Audio/Hit_00.mp3');
-    var heartAudio = new Audio('Audio/Collect_Point_00.mp3');
+    var monObjetAudio = {
+      audioJump : new Audio('Audio/SFX_Jump_11.wav'),
+      audioCoin : new Audio('Audio/coin.mp3'),
+      audioSpikes : new Audio('Audio/zeldaGasp.wav'),
+      audioHeart : new Audio('Audio/zeldaItemp.wav'),
+      audioLaser : new Audio('Audio/Hit_00.mp3'),
+      audioDie : new Audio('Audio/zeldaHurt.wav')
+    };
+    
+    
 
     /*****************************************SCORE + PV + BACKGROUND + SOUND + COMPETENCES********************************************************/
     $("#masque").css('left',"150px");
@@ -378,16 +388,7 @@ $(document).ready(function(){
         break;
       };  
     }, 1000);
-    /*$('#sound').click(function(){
-      var stopMusic = true;
-      if($(this).attr('src') == 'imgJeu/soundOn.gif'){
-          $('audio').attr("src",'Audio/jungle.mp3');
-        }else{
-          $(this).attr("src",'imgJeu/soundOff.gif');
-          $('audio').attr("src",'jungle.mp3');
-        }
-      }
-    });*/
+
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////ANIMATION PERSONNAGE IN GAME/////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -417,23 +418,23 @@ $(document).ready(function(){
   	        $('#monPerso').css("left","-193px");
   	        break;
   	       case "-193px" :
-  	        $('#monPerso').css("left","-258px");
+  	        $('#monPerso').css("left","-257px");
   	        break;
   	       
-  	       case "-258px" :
+  	       case "-257px" :
            $('#masque').css('width','64px');
-  	        $('#monPerso').css("left","-323px");
+  	        $('#monPerso').css("left","-325px");
   	        break;
   	       
-  	       case "-323px" :
-  	        $('#monPerso').css("left","-387px");
+  	       case "-325px" :
+  	        $('#monPerso').css("left","-386px");
   	        break;
   	       
-  	       case "-387px" :
-  	        $('#monPerso').css("left","-451px");
+  	       case "-386px" :
+  	        $('#monPerso').css("left","-450px");
   	        break;
   	       
-  	       case "-451px" :
+  	       case "-450px" :
   	        $('#monPerso').css("left","0px");
   	        break;
   	       }
@@ -491,6 +492,7 @@ $(document).ready(function(){
     };
 
     function die(){
+      monObjetAudio.audioDie.play();
       isSliding = 0;
       isDizzing = 0;
       isIdling = 0;
@@ -629,7 +631,7 @@ $(document).ready(function(){
     }; 
         
     function jump(){
-      audio.play();
+      monObjetAudio.audioJump.play();
       console.log('jump');
       isIdling = 0;
       isRunning = 0;
@@ -765,12 +767,12 @@ $(document).ready(function(){
           this.Position = this.monImage.style.position = "absolute";
           this.positionY = this.monImage.style.top = 82 + '%';
           this.positionX = this.monImage.style.left = 960 +'px';
-          this.BORDER = this.monImage.style.border = "1px solid black";
+          //this.BORDER = this.monImage.style.border = "1px solid black";
           this.SRC = this.monImage.src = 'imgJeu/Platform Tilesets Game Assets-04/Element resize/spikes.gif'; 
           cadre.appendChild(this.monImage);
           this.defilement = function repeatOften() {
             if(collisionSpikes()){
-              hitAudio.play();
+              monObjetAudio.audioSpikes.play();
               dizzy();
             }
             _this.valeur -= _this.speed;
@@ -793,12 +795,12 @@ $(document).ready(function(){
         this.Position = this.monImage.style.position = "absolute";
         this.positionY = this.monImage.style.top = 69 + '%';
         this.positionX = this.monImage.style.left = 960 + '%';
-        this.BORDER = this.monImage.style.border = "1px solid black";
+        //this.BORDER = this.monImage.style.border = "1px solid black";
         this.SRC = this.monImage.src = 'imgJeu/Platform Tilesets Game Assets-04/Element resize/piece.gif'; 
         cadre.appendChild(this.monImage);
         this.defilement = function repeatOften() {
           if(collisionGold()){
-            coinAudio.play();
+            monObjetAudio.audioCoin.play();
             $('#coin' + monObjet.j).remove();
           }
           _this.valeur -= _this.speed;
@@ -821,12 +823,12 @@ $(document).ready(function(){
         this.Position = this.monImage.style.position = "absolute";
         this.positionY = this.monImage.style.top = 68 + '%';
         this.positionX = this.monImage.style.left = 960 + '%';
-        this.BORDER = this.monImage.style.border = "1px solid black";
+        //this.BORDER = this.monImage.style.border = "1px solid black";
         this.SRC = this.monImage.src = 'imgJeu/Platform Tilesets Game Assets-04/Element resize/heart.gif'; 
         cadre.appendChild(this.monImage);
         this.defilement = function repeatOften() {
           if(collisionHeart()){
-            heartAudio.play();
+            monObjetAudio.audioHeart.play();
             $('#heart' + monObjet.k).remove();
           }
           _this.valeur -= _this.speed;
@@ -849,7 +851,7 @@ $(document).ready(function(){
         this.Position = this.monImage.style.position = "absolute";
         this.positionY = this.monImage.style.top = 4 + '%';
         this.positionX = this.monImage.style.left = 960 + '%';
-        this.BORDER = this.monImage.style.border = "1px solid black";
+        //this.BORDER = this.monImage.style.border = "1px solid black";
         this.SRC = this.monImage.src = 'imgJeu/beam.png'; 
         cadre.appendChild(this.monImage);
         this.suppr = function(){
